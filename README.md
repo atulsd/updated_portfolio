@@ -2,6 +2,8 @@
 
 Project Title: Portfolio
 
+![Screenshot](assets/images/profile.jpg)
+
 Table of Contents:
 
 [Description](#Description:)
@@ -14,7 +16,7 @@ Table of Contents:
 
 [References](#References:)
 
-[Scrennshots](#Screenshots:)
+[Screenshots](#Screenshots:)
 
 ## Description:
 
@@ -43,7 +45,7 @@ This project is about creating Personal Portfolio using Bootstrap for mobile res
 
 ![Screenshot](assets/images/weather_dashboard.png)
 
-![Screenshot](assets/images/daily_planner.png)
+![Screenshot](assets/images/day_scheduler.png)
 
 ![Screenshot](assets/images/code_quiz.png)
 
