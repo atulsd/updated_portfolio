@@ -1,0 +1,102 @@
+body {
+  background-color: #db8e299c;
+}
+main {
+  margin-left: 50px;
+  margin-top: 20px;
+  border-width: 30px;
+  border-style: groove;
+  max-width: 540px;
+  background-color: wheat;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background: rgb(250, 248, 248);
+  border: 3px solid rgb(250, 248, 248);
+}
+
+/*
+  The width of the ma will be 1024px
+  at browser widths above 768px
+*/
+.ma {
+  width: 540px;
+
+  margin-left: 50px;
+  margin-top: 20px;
+  border-width: 30px;
+  border-style: groove;
+  max-width: 540px;
+  background-color: wheat;
+  margin-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .ma {
+    width: 600px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 450px and below */
+@media screen and (max-width: 450px) {
+  body {
+    background-color: #444;
+  }
+
+  .ma {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+  }
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #333;
+  }
+
+  .ma {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+  }
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+  body {
+    background-color: #333;
+  }
+
+  .ma {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0px;
+  }
+}
