@@ -13,7 +13,9 @@ main {
   padding-right: 20px;
   padding-bottom: 20px;
 }
-
+p {
+  padding-left: 10px;
+}
 footer {
   background: rgb(250, 248, 248);
   border: 3px solid rgb(250, 248, 248);
@@ -24,13 +26,13 @@ footer {
   at browser widths above 768px
 */
 .ma {
-  width: 540px;
+  width: 640px;
 
   margin-left: 50px;
   margin-top: 20px;
   border-width: 30px;
   border-style: groove;
-  max-width: 540px;
+  max-width: 640px;
   background-color: wheat;
   margin-bottom: 100px;
   padding-left: 20px;
@@ -39,10 +41,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #333;
-  }
-
   .ma {
     width: 600px;
     padding: 20px;
@@ -55,10 +53,6 @@ footer {
 
 /* Width at 450px and below */
 @media screen and (max-width: 450px) {
-  body {
-    background-color: #444;
-  }
-
   .ma {
     width: 100%;
     padding: 20px;
@@ -73,10 +67,6 @@ footer {
 
 /* Width at 320px and below */
 @media screen and (max-width: 320px) {
-  body {
-    background-color: #333;
-  }
-
   .ma {
     /* Box-model */
     width: 100%;
@@ -90,10 +80,6 @@ footer {
 
 /* Width at 168px and below */
 @media screen and (max-width: 168px) {
-  body {
-    background-color: #333;
-  }
-
   .ma {
     width: 100%;
     padding: 20px;
